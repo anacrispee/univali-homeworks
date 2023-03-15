@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Lançamento de notas
+        </title>
+    </head>
+    <body>
+        <h1>
+            Lançamento de notas
+        </h1>
+        <form>
+            Selecione a disciplina
+            <select name="disciplina">
+                <option value="1">Introdução à informática</option>
+                <option value="2">Linguagens de programação</option>
+                <option value="3">Programação de computadores</option>
+            </select>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Nome do aluno</td>
+                        <td>Prova 1</td>
+                        <td>Prova 2</td>
+                        <td>Exame</td>
+                        <td>Média</td>
+                        <td>Faltas</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jonas Silva</td>
+                        <td><input type="number" name="Prova1" min="0" max="10" required></td>
+                        <td><input type="number" name="Prova2" min="0" max="10" required></td>
+                        <td><input type="number" name="Exame" min="0" max="10"></td>
+                        <td><input type="number" name="Média"></td>
+                        <td><input type="number" name="Faltas" min="0" max="16"></td>
+                    </tr>
+                    <tr>
+                        <td>Maria do Socorro</td>
+                        <td><input type="number" name="Prova1" min="0" max="10" required></td>
+                        <td><input type="number" name="Prova2" min="0" max="10" required></td>
+                        <td><input type="number" name="Exame" min="0" max="10"></td>
+                        <td><input type="number" name="Média"></td>
+                        <td><input type="number" name="Faltas" min="0" max="16"></td>
+                    </tr>
+                    <tr>
+                        <td>Pedro Santos</td>
+                        <td><input type="number" name="Prova1" min="0" max="10" required></td>
+                        <td><input type="number" name="Prova2" min="0" max="10" required></td>
+                        <td><input type="number" name="Exame" min="0" max="10"></td>
+                        <td><input type="number" name="Média"></td>
+                        <td><input type="number" name="Faltas" min="0" max="16"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="submit" name="Enviar" value="Enviar">
+            <input type="reset" name="Limpar" value="Limpar">
+        </form>
+    </body>
+</html>
