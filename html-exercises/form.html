@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Formulário Registro
+        </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form name="registro">
+            <pre>
+                Nome:
+                <input type="text" name="Nome" size="20" required>
+
+                Data de nascimento:
+                <input type="date" name="Nasicmento" required>
+
+                Endereço:
+                <textarea name="Endereco" required></textarea>
+
+                Email:
+                <input type="email" name="Email" required>
+
+                Telefone:
+                <input type="tel" name="Telefone" pattern="\d{2} \d{5}-\d{4}$">
+
+                Foto:
+                <input type="file" name="Foto">
+
+                Estado Civil:
+                <select name="EstadoCivil">
+                    <option value="1">Solteiro</option>
+                    <option value="2">Casado</option>
+                </select>
+
+                Sexo:
+                Masculino <input type="radio" name="Sexo" value="M">
+                Feminino <input type="radio" name="Sexo" value="F">
+
+                Meio de locomoção:
+                <input type="checkbox" name="Locomocao" value="V"> Veículo Próprio
+                <input type="checkbox" name="Locomocao" value="C"> Coletivo
+                <input type="checkbox" name="Locomocao" value="B"> Bicicleta
+
+                Senha:
+                <input type="password" name="Senha" size="20">
+                <input type="submit" name="Enviar" value="Enviar">
+                <input type="reset" name="Limpar" value="Limpar">
+            </pre>
+        </form>
+    </body>
+</html>
