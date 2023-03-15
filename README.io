@@ -1,1 +1,1 @@
-# Atividades feitas durante a graduação ADS UNIVALI.
+Atividades feitas durante a graduação ADS UNIVALI.
