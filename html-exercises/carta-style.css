@@ -1,0 +1,26 @@
+body {
+    max-width: 600px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.carta {
+    background-color: burlywood;
+    padding: 10px;
+}
+
+.local-data {
+    text-align: center;
+    padding: 10px;
+}
+
+.saudacao, .corpo {
+    padding: 10px;
+}
+
+.despedida {
+    padding-top: 10px;
+}
+
+.ass {
+    padding-bottom: 10px;
+}
